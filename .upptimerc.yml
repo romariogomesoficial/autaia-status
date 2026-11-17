@@ -13,7 +13,8 @@ sites:
     url: https://api.autaia.com.br/health
 
 status-website:
-  cname: status.autaia.com.br
+  baseUrl: /autaia-status
+  # Volta para "cname: status.autaia.com.br" (e tira o baseUrl) quando o CNAME status estiver no DNS da Hostinger.
   name: Status da Autaia
   introTitle: "Status da Autaia"
   introMessage: "Se o site, o painel e a API da Autaia estão funcionando agora, e o histórico dos últimos 90 dias."
